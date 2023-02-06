@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 bridge_name=br1
 bridge_ip=10.10.10.1/24
 ping_target=8.8.8.8
