@@ -29,7 +29,9 @@ If you're running on an Ubuntu system, the `rules.v4` file included here will se
     cp rules.v4 /etc/iptables/rules.v4
     ```
 
-3. Reboot.
+3. Edit `/etc/iptables/rules.v4` to replace the name of `eth0` with your primary interface.
+
+4. Reboot.
 
 ## Running the tests
 
