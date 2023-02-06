@@ -8,6 +8,8 @@ I haven't been able to reproduce the behavior described in the question:
 - It works if we remove that call completely
 - It works if we set an explicit hardware address
 
+I've run the tests under both Ubuntu 22.04 and Fedora 37.
+
 ## Before you begin
 
 In order to ping or otherwise access external addresses, we need to make the following changes:
