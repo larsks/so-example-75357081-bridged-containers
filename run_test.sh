@@ -10,7 +10,7 @@ ping_target=8.8.8.8
 mkdir -p /run/netns
 
 echo "create the bridge"
-go run br_init.go -name $bridge_name -ip $bridge_ip
+go run br_init.go "$@" -name $bridge_name -ip $bridge_ip
 
 for node in {0..2}; do
 	name="node$node"
