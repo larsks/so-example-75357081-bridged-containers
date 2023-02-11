@@ -6,6 +6,9 @@ bridge_name=br1
 bridge_ip=10.10.10.1/24
 ping_target=8.8.8.8
 
+# ensure /run/netns exists
+mkdir -p /run/netns
+
 echo "create the bridge"
 go run br_init.go -name $bridge_name -ip $bridge_ip
 
